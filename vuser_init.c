@@ -1,6 +1,7 @@
 vuser_init()
 {
-	return 1;
+	rlr_start_transaction("");
+eturn 1;
 
 	lr_end_transaction_instance(111, 123);
 
